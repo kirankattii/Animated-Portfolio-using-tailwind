@@ -1,21 +1,18 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
 
 const footerLinks = [
-	{
-		title: "Youtube",
-		herf: "#",
-	},
+
 	{
 		title: "Twitter",
-		herf: "#",
+		herf: "https://x.com/kirankatti420",
 	},
 	{
 		title: "Instagram",
-		herf: "#",
+		herf: "https://www.instagram.com/kirankattiii/",
 	},
 	{
 		title: "LinkdIn",
-		herf: "#",
+		herf: "https://www.linkedin.com/in/kiran-katti-745008236/",
 	},
 ]
 
@@ -30,7 +27,7 @@ export const Footer = () => {
 						<nav className="flex flex-col md:flex-row items-center gap-8">
 							{footerLinks.map((link) => (
 								<a
-									href="#"
+									href={link.herf}
 									key={link.title}
 									className="inline-flex items-center gap-1.5"
 								>
