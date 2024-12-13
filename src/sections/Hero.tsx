@@ -140,7 +140,7 @@ export const HeroSection = () => {
 						Building Expectional User Experiences
 					</h1>
 					<p className="mt-4 text-center text-white/60 md:text-lg">
-				A full-stack web developer with 2+ years of experience, specializing in the MERN stack, ReactJS, NextJS, and scalable RESTful APIs.
+				A full-stack web developer with 1+ years of experience, specializing in the MERN stack, ReactJS, NextJS, and scalable RESTful APIs.
 					</p>
 				</div>
 				<div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
