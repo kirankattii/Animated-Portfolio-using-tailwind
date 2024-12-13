@@ -18,7 +18,7 @@ const portfolioProjects = [
 			{ title: "Integrated Razorpay for secure payment processing." },
 			{ title: "Improved performance with RBAC and Context API." },
 		],
-		link: "https://youtu.be/4k7IdSLxh6w",
+		link: "https://github.com/kirankattii/Appointment-Booking",
 		image: darkSaasLandingPage,
 	},
 	{
@@ -30,7 +30,7 @@ const portfolioProjects = [
 			{ title: "Optimized S3 image storage, boosting performance by 25%." },
 			{ title: "Delivered a secure solution for large inventories." },
 		],
-		link: "https://youtu.be/7hi5zwO75yc",
+		link: "https://github.com/kirankattii/inventory-management",
 		image: lightSaasLandingPage,
 	},
 	{
@@ -42,7 +42,7 @@ const portfolioProjects = [
 			{ title: "Designed dashboards using Recharts for data insights." },
 			{ title: "Reduced file retrieval times by 50%." },
 		],
-		link: "https://youtu.be/Z7I5uSRHMHg",
+		link: "https://github.com/kirankattii/CloudStorageApp",
 		image: aiStartupLandingPage,
 	},
 ]
