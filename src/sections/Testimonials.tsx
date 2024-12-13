@@ -44,13 +44,14 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
 	return (
-		<div className="py-16 lg:py-24">
+		<div id="testimonials" className="py-16 lg:py-24">
 			<div className="container">
 				<SectionHeader
 					eyebrow="Happy Clients"
 					title="What Clients Say About Me"
-					description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-				veritatis doloribus aliquid, soluta totam non!"
+					description="Delivering exceptional solutions and creating experiences that leave a lasting impression. Here's what my clients have to say about my work and collaboration.
+
+"
 				/>
 
 				<div className="mt-12 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
