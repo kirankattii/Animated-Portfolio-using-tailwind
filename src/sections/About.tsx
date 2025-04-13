@@ -46,40 +46,58 @@ const toolboxItems = [
 
 const hobbies = [
 	{
-		title: "Tracking & Exploring",
-		emoji: "🗺️📍🌍",
+		title: "Tracking",
+		emoji: "🏃‍♂️‍➡️",
 		left: "5%",
 		top: "5%",
 	},
 	{
+		title: "Exploring",
+		emoji: "🌍",
+		left: "25%",
+		top: "-13%",
+	},
+	{
 		title: "Travelling",
-		emoji: "✈️🌎🧳",
+		emoji: "✈️",
 		left: "50%",
 		top: "5%",
 	},
 	{
 		title: "Music ",
-		emoji: "🎵🎧🎶",
+		emoji: "🎵",
 		left: "35%",
 		top: "40%",
 	},
 	{
-		title: "Cricket ",
+		title: "Cricket",
 		emoji: "🏏 ",
 		left: "10%",
 		top: "35%",
 	},
+	{
+		title: "Movies",
+		emoji: "🍿",
+		left: "75%",
+		top: "40%",
+	},
+	{
+		title: "Nature",
+		emoji: "🌴",
+		left: "80%",
+		top: "0%",
+	},
 
 	{
-		title: "Learning New",
-		emoji: "🌐🧠",
-		left: "60%",
-		top: "55%",
+		title: "Learning new",
+		emoji: "🧠",
+		left: "55%",
+		top: "69%",
 	},
 
 	{
 		title: "Fitness",
-		emoji: "💪🏋️",
+		emoji: "🏋️",
 		left: "5%",
 		top: "65%",
 	},
