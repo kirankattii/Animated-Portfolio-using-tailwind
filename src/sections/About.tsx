@@ -13,8 +13,10 @@ import mapImage from "@/assets/images/map.png"
 import smileMemoji from "@/assets/images/memoji-smile.png"
 import CardHeader from "@/components/CardHeader"
 import ToolboxItems from "@/components/ToolboxItems"
+import handstand from '@/assets/images/handstand.jpeg'
 import { motion } from "framer-motion"
 import { useRef } from "react"
+import Link from "next/link"
 const toolboxItems = [
 	{
 		title: "JavaScript",
@@ -44,54 +46,44 @@ const toolboxItems = [
 
 const hobbies = [
 	{
-		title: "Painting",
-		emoji: "🎨",
+		title: "Tracking & Exploring",
+		emoji: "🗺️📍🌍",
 		left: "5%",
 		top: "5%",
 	},
 	{
-		title: "Photography",
-		emoji: "🧑‍💻",
+		title: "Travelling",
+		emoji: "✈️🌎🧳",
 		left: "50%",
 		top: "5%",
 	},
 	{
-		title: "Hiking",
-		emoji: "🚵‍♂️",
+		title: "Music ",
+		emoji: "🎵🎧🎶",
 		left: "35%",
 		top: "40%",
 	},
 	{
-		title: "Gaming",
-		emoji: "✈️",
+		title: "Cricket ",
+		emoji: "🏏 ",
 		left: "10%",
 		top: "35%",
 	},
 
 	{
-		title: "Photography",
-		emoji: "📸",
-		left: "70%",
-		top: "45%",
+		title: "Learning New",
+		emoji: "🌐🧠",
+		left: "60%",
+		top: "55%",
 	},
-	{
-		title: "Music",
-		emoji: "🏏",
-		left: "70%",
-		top: "45%",
-	},
+
 	{
 		title: "Fitness",
-		emoji: "🥾",
+		emoji: "💪🏋️",
 		left: "5%",
 		top: "65%",
 	},
-	{
-		title: "Reading",
-		emoji: "🥾",
-		left: "45%",
-		top: "70%",
-	},
+
 ]
 
 export const AboutSection = () => {
@@ -108,12 +100,12 @@ export const AboutSection = () => {
 					<div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
 						<Card className="h-[320px] md:col-span-2 lg:col-span-1">
 							<CardHeader
-								title="My Reads"
-								description="	Explore the books shaping my perspectives"
+								title="Happiness"
+								description="Do What You LOVE "
 							/>
 							<div className="w-40 mx-auto mt-2 md:mt-0">
 								<Image
-									src={bookImage}
+									src={handstand}
 									alt="book cover"
 								/>
 							</div>
@@ -170,15 +162,17 @@ export const AboutSection = () => {
 								alt="map"
 								className="h-full w-full object-cove object-left-top"
 							/>
-							<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-fullafter:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30 ">
-								<div className="absolute inset-0 rounded-full  bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
-								<div className="absolute inset-0 rounded-full  bg-gradient-to-r from-emerald-300 to-sky-400 -z-10 "></div>
-								<Image
-									src={smileMemoji}
-									alt="Memoji"
-									className="size-20"
-								/>
-							</div>
+							<Link href={"https://maps.app.goo.gl/ufL1MU2HDsNmv2U37"}>
+								<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-fullafter:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30 ">
+									<div className="absolute inset-0 rounded-full  bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
+									<div className="absolute inset-0 rounded-full  bg-gradient-to-r from-emerald-300 to-sky-400 -z-10 "></div>
+									<Image
+										src={smileMemoji}
+										alt="Memoji"
+										className="size-20"
+									/>
+								</div>
+							</Link>
 						</Card>
 					</div>
 				</div>

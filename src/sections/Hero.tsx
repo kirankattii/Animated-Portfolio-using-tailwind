@@ -1,4 +1,8 @@
 import memojiImage from "@/assets/images/memoji-computer.png"
+import glassImg from "@/assets/images/glass1.png"
+import bengImg from "@/assets/images/beng1.png"
+import goaImg from "@/assets/images/goa.jpeg"
+import goaImg1 from "@/assets/images/goa1.png"
 import ArrowDown from "@/assets/icons/arrow-down.svg"
 import Image from "next/image"
 import grainImage from "@/assets/images/grain.jpg"
@@ -124,7 +128,7 @@ export const HeroSection = () => {
 				<div className="flex flex-col items-center ">
 					<Image
 						className="size-[100px]"
-						src={memojiImage}
+						src={bengImg}
 						alt="person behind laptop"
 					/>
 					<div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
@@ -138,21 +142,35 @@ export const HeroSection = () => {
 				</div>
 				<div className="max-w-lg mx-auto">
 					<h1 className="font-serif text-3xl md:text-5xl text-center mt-4 tracking-wide ">
-						Building Expectional User Experiences
-					</h1>
+						Kiran Katti <br /> Software Engineer					</h1>
 					<p className="mt-4 text-center text-white/60 md:text-lg">
-				A full-stack web developer with 1+ years of experience, specializing in the MERN stack, ReactJS, NextJS, and scalable RESTful APIs.
+						A Full-stack developer with 1+ years of experience, specializing in the MERN stack, ReactJS, NextJS, and scalable RESTful APIs.
 					</p>
 				</div>
 				<div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-					<button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-						<span className="font-semibold"><Link href={"#projects"}>Explore My Work</Link></span>
+					{/* <a
+						href="#projects"
+						className="nav-item"
+					>
+						<button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+							<span className="font-semibold">
+								Explore My Work</span>
+							<ArrowDown className="size-4" />
+						</button>
+					</a> */}
+					<Link
+						href="#projects"
+						className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl font-semibold hover:bg-white/10 transition-colors z-10"
+						target="_blank"
+					>
+						Explore My Work
 						<ArrowDown className="size-4" />
-					</button>
-					<button className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+					</Link>
+
+					<Link href={"https://www.linkedin.com/in/kiran-katti-745008236/"} className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-10" target="_blank">
 						<span>👋</span>
-						<span  className="font-semibold"><Link href={"https://www.linkedin.com/in/kiran-katti-745008236/"}>Let&apos;s Connect</Link></span>
-					</button>
+						<span className="font-semibold">Let&apos;s Connect</span>
+					</Link>
 				</div>
 			</div>
 		</div>
