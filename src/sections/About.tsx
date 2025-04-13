@@ -89,7 +89,7 @@ const hobbies = [
 	},
 
 	{
-		title: "Learning new",
+		title: "Learningd",
 		emoji: "🧠",
 		left: "55%",
 		top: "69%",

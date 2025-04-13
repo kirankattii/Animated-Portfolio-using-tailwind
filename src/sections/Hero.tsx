@@ -158,19 +158,19 @@ export const HeroSection = () => {
 							<ArrowDown className="size-4" />
 						</button>
 					</a> */}
-					<Link
+					<a
 						href="#projects"
 						className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl font-semibold hover:bg-white/10 transition-colors z-10"
 						target="_blank"
 					>
 						Explore My Work
 						<ArrowDown className="size-4" />
-					</Link>
+					</a>
 
-					<Link href={"https://www.linkedin.com/in/kiran-katti-745008236/"} className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-10" target="_blank">
+					<a href={"https://www.linkedin.com/in/kiran-katti-745008236/"} className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-10" target="_blank">
 						<span>👋</span>
 						<span className="font-semibold">Let&apos;s Connect</span>
-					</Link>
+					</a>
 				</div>
 			</div>
 		</div>
